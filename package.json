@@ -1,0 +1,30 @@
+{
+  "name": "strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Workout Manager Strapi API",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.5.3",
+    "@strapi/plugin-users-permissions": "4.5.3",
+    "@strapi/plugin-i18n": "4.5.3",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "Bruno Schvartz"
+  },
+  "strapi": {
+    "uuid": "c091ae1c-e113-4fa6-9e6c-52696fa2e59b"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
