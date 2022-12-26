@@ -32,6 +32,12 @@
         }
       },
       "type": "text"
+    },
+    "exercises": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::exercise.exercise",
+      "mappedBy": "workout"
     }
   }
 }

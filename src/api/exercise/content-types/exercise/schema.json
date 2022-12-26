@@ -26,6 +26,26 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::exercise-library.exercise-library"
+    },
+    "repetition": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    },
+    "weight": {
+      "type": "integer",
+      "default": 0
+    },
+    "rest": {
+      "type": "float",
+      "min": 0,
+      "default": 0
+    },
+    "workout": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::workout.workout",
+      "inversedBy": "exercises"
     }
   }
 }
