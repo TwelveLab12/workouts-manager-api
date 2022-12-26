@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exercise_libraries",
+  "info": {
+    "singularName": "exercise-library",
+    "pluralName": "exercise-libraries",
+    "displayName": "ExerciseLibrary"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
